@@ -1,0 +1,63 @@
+.holderContacto {
+    text-align: center;
+    /* align-items: flex-end; */
+    /* background-color: hwb(126 74% 19%);   */
+    /* overflow: hidden;   */
+    width: 100vw;
+    padding-right:0px;
+    margin-right:0px;
+    background-image: url("../../../../public/img/exit.jpg");
+    background-size: cover;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+
+.box {
+     align-self: flex-end;
+     border-color:  hwb(330 5% 11%);
+     border-width: 3px;
+     width: 300px;
+     
+}
+
+.label {
+    display: block;    
+}
+
+/* //esto afecta mi footer */
+ul {
+    list-style-type: none;
+    }
+
+.boton {
+    border-style:groove;
+    color: white;
+    background-color: hwb(330 5% 11%);
+}
+
+/* .datosContacto {
+    align-items: center;
+    display: block;
+} */
+
+.leftContact{
+    float: left;
+    text-align: left;
+}
+
+.rightContact{
+    float: right;
+    text-align: left;
+}
+
+.columnas{
+    padding: 10px;
+}
+
+.contactBottom{
+    position:static;
+    bottom:0
+}
+

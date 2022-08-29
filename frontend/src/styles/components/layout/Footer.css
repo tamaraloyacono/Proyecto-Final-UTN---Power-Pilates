@@ -1,0 +1,30 @@
+.pie {
+    width: auto;
+    background-color: black;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    position: static;
+    bottom: 0%;
+}
+
+.leftFooter{
+    float: left;
+    padding-left: 130px;
+    text-align: left;
+}
+
+.rightFooter{
+    float: right;
+    text-align: left;
+    position: absolute;
+    margin-left: 700px;
+}
+
+.columnas{
+    padding: 10px;
+}

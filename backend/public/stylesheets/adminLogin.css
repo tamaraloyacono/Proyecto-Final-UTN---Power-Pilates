@@ -1,0 +1,29 @@
+
+body {
+   background-image: url(../images/magic.jpg);
+   background-size: cover;
+   font-family: 'Poiret One', cursive;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   text-align: center;
+   height: 235vh;
+   width: auto;
+   margin-top:50px;
+}
+
+#titulo{
+    font-size: 100px;
+    padding-top: 100px;
+}
+
+.container button {
+    color: white;
+    background-color: #ff39a8;
+    border-color: #ff39a8;
+}
+
+.container button:hover {
+    background-color: rgb(223, 11, 35);
+    border-color:  rgb(223, 11, 35);
+}
+

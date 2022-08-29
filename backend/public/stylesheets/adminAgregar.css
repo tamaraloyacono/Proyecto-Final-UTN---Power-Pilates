@@ -1,0 +1,21 @@
+
+body {
+    padding-top: 100px;
+    background-image: url(../images/social.jpg);
+    background-size: cover;
+    font-family: 'Poiret One', cursive;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    height: 170vh;
+    width: auto;
+    
+}
+
+.container {
+    font-size: 25px;
+}
+
+#guardarBoton {
+    font-size: 20px;
+}

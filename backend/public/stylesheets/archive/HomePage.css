@@ -1,0 +1,28 @@
+.holder {
+    background-color: black;
+    height: 100vh;
+    color: rgb(244, 154, 220); }
+
+img{
+ /* height: 100vh; */
+ display: flex;
+ width: 100vh;
+ justify-content: center;
+ align-items: center;
+ gap: 10 px;
+ padding: 10px;
+}
+
+/* body{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 10 px;
+    flex-direction: column;
+    height: 100 vh;
+}
+
+#display_image{
+    width: 375px;
+    height: 211px;
+} */

@@ -1,0 +1,19 @@
+.holderNovedades {
+    background-image: url(../../../../public/img/verdeplanta.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+.novedadesBottom {
+    position:static;
+    bottom:0}
+
+#container{
+    width:75%;
+ }
+
+ .novedadesNav{
+    z-index: 1;
+    /* position:sticky;
+    height:25vh; */
+ }

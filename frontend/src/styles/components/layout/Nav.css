@@ -1,0 +1,104 @@
+.navBar {
+    position: sticky;
+    top: 0;
+    width: auto;
+    height: 185px;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista {
+    list-style-type: none;
+    background: linear-gradient(20deg, #ff39a8, rgb(94, 19, 19));
+    height: 100%;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Poiret One', cursive;
+}
+
+.items {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f1f1f1;
+    cursor: pointer;
+    font-size: 28px;
+    padding: 25px;
+    overflow:hidden;
+    text-decoration: none;
+}
+
+.active, .items:hover{
+    /* box-shadow: 0 4px 2px -2px gray; */
+    /* text-shadow: 2px 2px black;
+    color:gray; */
+    transform: scale(1.1);
+    /* animation:flicker 1.5s infinite alternate; */
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff,
+        0 0 90px rgb(255, 0, 234),
+        0 0 100px rgb(255, 0, 234),
+        0 0 150px rgb(255, 0, 234),
+        0 0 200px rgb(255, 0, 234),
+        0 0 400px rgb(255, 0, 234),
+        0 0 800px rgb(255, 0, 234);
+    transition: color 0.5s,text-shadow 0.5s;
+}
+
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #fff,
+      0 0 80px #fff,
+      0 0 90px rgb(255, 0, 234),
+      0 0 100px rgb(255, 0, 234),
+      0 0 150px rgb(255, 0, 234),
+      0 0 200px rgb(255, 0, 234),
+      0 0 400px rgb(255, 0, 234),
+      0 0 800px rgb(255, 0, 234);
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+/* .btn {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 7px;
+    padding: 5px;
+    color: #000;
+    font-size: 30px;
+} */
+
+/* .items{
+    text-decoration: none;
+} */
+
+.logoNavBar {
+    position: absolute;
+    top: 0%;
+    left:0%;
+    padding-left: 40px;
+    padding-top: 40px;
+    margin-right: 200px;
+}
+
+.logoPilates {
+    height: 250px;
+    width: 250px;
+}

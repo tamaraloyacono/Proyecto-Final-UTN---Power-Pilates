@@ -1,0 +1,18 @@
+.nosotrosBody {
+    background-image: url("../../../../public/img/workHarder.jpg");
+    background-size: cover;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    height: 110vh;
+}
+
+.historia { 
+    padding-top: 450px;
+}
+.nosotrosBottom {
+    position:static;
+    bottom:0
+}
